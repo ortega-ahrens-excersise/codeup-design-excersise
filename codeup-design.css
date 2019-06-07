@@ -1,0 +1,44 @@
+body {
+    background: #e6e6e6!important;
+}
+.logo {
+    width: 105px;
+    height: 105px;
+}
+h1, h2 {
+    text-align: center;
+    font-weight: bold!important;
+}
+.nav-link {
+    color: black!important;
+}
+.col-12 {
+}
+
+.circle {
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+    border: 7px solid white;
+    box-sizing: border-box;
+}
+.c-red {
+    background: #e6563b;
+}
+.c-orange {
+    background: #Eb9d3a;
+}
+.c-green {
+    background: #7cb06c;
+}
+.c-blue {
+    background: #00aba9;
+}
+.circle-text {
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+    font-family: "Anton";
+}
+/*font-family: 'Abel', sans-serif;*/
+/*font-family: 'Anton', sans-serif;*/
