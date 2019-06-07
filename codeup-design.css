@@ -1,5 +1,5 @@
 body {
-    background: #e6e6e6!important;
+    background: #F0F0F0!important;
 }
 .logo {
     width: 105px;
@@ -22,6 +22,12 @@ h1, h2 {
     border: 7px solid white;
     box-sizing: border-box;
 }
+.circle-sm {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+}
 .c-red {
     background: #e6563b;
 }
@@ -39,6 +45,24 @@ h1, h2 {
     text-align: center;
     margin-top: 2em;
     font-family: "Anton";
+}
+.circle-text-sm {
+    color: black;
+    text-align: center;
+    font-size: .5em;
+    font-family: "Anton";
+    padding-top: 2px;
+}
+.pic-border {
+    border: #E6E6E6 solid 10px;
+    border-radius: 5px;
+}
+.pic-title {
+    text-align: left;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
 }
 /*font-family: 'Abel', sans-serif;*/
 /*font-family: 'Anton', sans-serif;*/
