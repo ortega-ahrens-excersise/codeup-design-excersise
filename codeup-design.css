@@ -63,6 +63,15 @@ h1, h2 {
     padding-right: 0;
     padding-left: 0;
 }
-
+.no-wrap {
+    padding: 1em!important;
+}
+.top-nav {
+    text-align: center;
+    color: black;
+}
+/*.top-nav-box {*/
+/*    max-width: 15%!important;*/
+/*}*/
 /*font-family: 'Abel', sans-serif;*/
 /*font-family: 'Anton', sans-serif;*/
