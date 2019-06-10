@@ -12,8 +12,7 @@ h1, h2 {
 .nav-link {
     color: black!important;
 }
-.col-12 {
-}
+
 
 .circle {
     border-radius: 50%;
@@ -60,9 +59,13 @@ h1, h2 {
 .pic-title {
     text-align: left;
 }
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+.no-padding {
+    padding-right: 0;
+    padding-left: 0;
+}
+img {
+    height: 105px;
+    width : 105px;
 }
 /*font-family: 'Abel', sans-serif;*/
 /*font-family: 'Anton', sans-serif;*/
