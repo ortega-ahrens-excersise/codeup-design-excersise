@@ -12,8 +12,6 @@ h1, h2 {
 .nav-link {
     color: black!important;
 }
-
-
 .circle {
     border-radius: 50%;
     width: 105px;
@@ -63,15 +61,33 @@ h1, h2 {
     padding-right: 0;
     padding-left: 0;
 }
-.no-wrap {
-    padding: 1em!important;
-}
 .top-nav {
     text-align: center;
     color: black;
 }
-/*.top-nav-box {*/
-/*    max-width: 15%!important;*/
-/*}*/
+.fnt-abl1 {
+    font-family: 'Abel', sans-serif;
+    font-size: 59px;
+}
+.fnt-abl2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 19px;
+}
+.fnt-abl3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 12px;
+}
+.fnt-ant1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 64px;
+}
+.fnt-ant2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+.fnt-ant3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
 /*font-family: 'Abel', sans-serif;*/
 /*font-family: 'Anton', sans-serif;*/
