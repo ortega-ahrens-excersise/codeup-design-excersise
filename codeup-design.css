@@ -1,9 +1,15 @@
 body {
     background: #F0F0F0!important;
 }
+.mx-width {
+    width: 992px;
+}
 .logo {
     width: 105px;
     height: 105px;
+}
+.ls-style {
+    list-style: none;
 }
 h1, h2 {
     text-align: center;
@@ -18,12 +24,19 @@ h1, h2 {
     height: 105px;
     border: 7px solid white;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 .circle-sm {
     border-radius: 50%;
     width: 18px;
     height: 18px;
     box-sizing: border-box;
+}
+.col-1 {
+    padding: 0!important;
+}
+.container {
+    max-width: 991px!important;
 }
 .c-red {
     background: #e6563b;
@@ -87,7 +100,9 @@ h1, h2 {
 }
 .fnt-ant3 {
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
 }
-/*font-family: 'Abel', sans-serif;*/
-/*font-family: 'Anton', sans-serif;*/
+main {
+    max-width: 768px;
+    margin: auto;
+}

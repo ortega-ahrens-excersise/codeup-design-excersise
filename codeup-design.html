@@ -10,272 +10,318 @@
     <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="codeup-design.css">
     <script src="https://kit.fontawesome.com/9ec51008e6.js"></script>
-
     <style>
-        .fnt-abl1 {
-            font-family: 'Abel', sans-serif;
-            font-size: 59px;
+        .style-hd {
+            background: white;
+            height: 60px;
+            margin-top: 3em
         }
-        .fnt-abl2 {
-            font-family: 'Abel', sans-serif;
-            font-size: 19px;
+        .ls-style {
+            list-style: none;
+            display: inline;
         }
-        .fnt-abl3 {
-            font-family: 'Abel', sans-serif;
-            font-size: 12px;
-        }
-        .fnt-ant1 {
-            font-family: 'Anton', sans-serif;
-            font-size: 64px;
-        }
-        .fnt-ant2 {
-            font-family: 'Anton', sans-serif;
-            font-size: 40px;
-        }
-        .fnt-ant3 {
-            font-family: 'Anton', sans-serif;
-            font-size: 40px;
-        }
+        .no-gutter {
+            margin-right: 0;
+            margin-left: 0;
+
+        & > [class^="col-"],
+        & > [class*=" col-"] {
+              padding-right: 0;
+              padding-left: 0;
+          }
 
     </style>
-
 </head>
 <body>
-    <div class="col-12" style="background: white;height: 60px;margin-top: 3em">
-        <div class="d-flex justify-content-center">
-            <img src="logo.png" class="logo rounded mx-auto d-block" alt="logo" style="z-index: 1; position: relative;bottom: 1.3em;">
+
+<!--<div class="container">
+    <div class="row">
+        <div class="col-3 col-md-6">
+            <div class="card card-body">1</div>
+        </div>
+        <div class="col-6 col-md-12 order-2 order-md-12">
+            <div class="card card-body">3</div>
+        </div>
+        <div class="col-3 col-md-6 order-3">
+            <div class="card card-body">2</div>
         </div>
     </div>
+</div> -->
+
+
+    <div class="container-fluid justify-content-center">
+        <div>
+            <div class="row no-gutter">
+<!--                <div class="col-1"></div>-->
+<!--                <div class="col-3"></div>-->
+                <div class="col-12 col-sm-2 order-sm-2 col-md-2 order-md-1"><img src="logo.png" class="logo rounded mx-auto d-block" alt="logo"></div>
+<!--                <div class="col-3"></div>-->
+<!--                <div class="col-1"></div>-->
+                <div class="col-12 col-sm-12 order-sm-4 col-md-5 order-md-2"><h1 class="fnt-abl1">codeup design</h1></div>
+                <div class="col-6 col-sm-5 order-sm-1 col-md-3 order-md-3 ls-style">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item no-padding"><a class="nav-link fnt-abl2" href="#">SERVICES</a></li>
+                        <li class="nav-item no-padding"><a class="nav-link fnt-abl2" href="#">WORK</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 order-sm-3 col-md-2 order-md-4 ls-style">
+                    <ul class="nav">
+                        <li class="nav-item no-padding"><a class="nav-link fnt-abl2" href="#">BLOG</a></li>
+                        <li class="nav-item no-padding"><a class="nav-link fnt-abl2" href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--
+<div class="col-12" style="background: white;height: 60px;margin-top: 3em">
+    <div class="d-flex justify-content-center"> -->
+        <!--            <img src="logo.png" class="logo rounded mx-auto d-block" alt="logo" style="z-index: 1; position: relative;bottom: 1.3em;">-->
+<!--    </div>
+</div> -->
 <!--Top Hidden Nav-->
-<div class="container container-fluid justify-content-center">
-        <div class="row" style="z-index: 2; position: relative; bottom: 3em;">
-                <div class="d-none d-sm-block col-sm-2"><a class="top-nav" href="#">SERVICES</a></div>
-                <div class="d-none d-sm-block col-sm-2"><a class="top-nav" href="#">WORK</a></div>
-                <div class="d-none d-sm-block col-sm-4 "></div>
-                <div class="d-none d-sm-block col-sm-2"><a class="top-nav" href="#">BLOG</a></div>
-                <div class="d-none d-sm-block col-sm-2"><a class="top-nav" href="#">CONTACT</a></div>
-            </div>
+<!-- <div class="container-fluid justify-content-center" style="margin: auto 0;">
+    <div class="row" style="z-index: 2; position: relative; bottom: 3em;">
+        <div class="d-none d-sm-block d-md-none col-sm-2 justify-content-center"><p class="top-nav fnt-abl2" href="#">SERVICES</p></div>
+        <div class="d-none d-sm-block d-md-none col-sm-2 justify-content-center"><p class="top-nav fnt-abl2" href="#">WORK</p></div>
+        <div class="col-12 d-md-none d-md-none col-sm-4 justify-content-center">
+            <img src="logo.png" class="logo rounded mx-auto d-block" alt="logo" style="z-index: 1; position: relative;bottom: 2em;">
         </div>
-        <div class="row">
-            <div class="col-12" style="margin-top: 3em">
-                <h1 class="fnt-abl1">codeup design</h1>
-            </div>
+        <div class="d-none d-sm-block d-md-none col-sm-2 justify-content-center"><p class="top-nav fnt-abl2" href="#">BLOG</p></div>
+        <div class="d-none d-sm-block d-md-none col-sm-2 justify-content-center"><p class="top-nav fnt-abl2" href="#">CONTACT</p></div> -->
+        <!--second bar for med-->
+ <!--       <div class="d-none d-md-block col-md-2 justify-content-left">
+            <img src="logo.png" class="logo rounded mx-auto d-block" alt="logo" style="z-index: 1; position: relative;bottom: 2em;">
         </div>
+        <div class="d-none d-md-block col-md-6"><h1 class="fnt-abl1" style="font-size: 36px;margin-top: -.2em;!important;text-align: left">codeup design</h1></div>
+        <div class="d-none d-md-block col-md-1 justify-content-center" style="width: 50px;padding: .5em 0;"><a class="top-nav fnt-abl2" style="padding-top: 2em;" href="#">SERVICES</a></div>
+        <div class="d-none d-md-block col-md-1 justify-content-center" style="width: auto!important;padding: .5em 0;"><a class="top-nav fnt-abl2" style="padding-top: 2em;" href="#">WORK</a></div>
+        <div class="d-none d-md-block col-md-1 justify-content-center" style="width: auto;padding: .5em 0;"><a class="top-nav fnt-abl2" style="padding-top: 2em;" href="#">BLOG</a></div>
+        <div class="d-none d-md-block col-md-1 justify-content-center" style="width: auto;padding: .5em 0;"><a class="top-nav fnt-abl2" style="padding-top: 2em;" href="#">CONTACT</a></div>
+    </div>
+</div>
+<div class="row d-md-none">
+    <div class="col-12 d-md-none" style="margin-top: -2em"">
+    <h1 class="fnt-abl1">codeup design</h1>
+</div>
+</div> -->
 <!--Nav Bar-->
-
-    <section class="container container-fluid">
-        <div class="row justify-content-center">
+<!-- <section class="container d-md-none">
+    <div class="row justify-content-center d-md-none">
         <ul class="nav justify-content-center" style="margin-top: 2em">
-            <li class="nav-item">
-                <a class="nav-link fnt-abl2 active" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link fnt-abl2" href="#">WORK</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link fnt-abl2" href="#">BLOG</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link fnt-abl2" href="#">CONTACT</a>
-            </li>
+            <li class="nav-item"><a class="nav-link fnt-abl2" href="#">SERVICES</a></li>
+            <li class="nav-item"><a class="nav-link fnt-abl2" href="#">WORK</a></li>
+            <li class="nav-item"><a class="nav-link fnt-abl2" href="#">BLOG</a></li>
+            <li class="nav-item"><a class="nav-link fnt-abl2" href="#">CONTACT</a></li>
         </ul>
-        </div>
-
-        <div class="row" style="margin-top: 5em">
-            <div class="col 12">
-                <h1 class="fnt-ant1">VISUAL DESIGN & WEB DEVELOPMENT</h1>
-            </div>
-        </div>
-        <div class="row" style="margin-top: 5em">
-            <div class="col 12">
-                <h2 class="fnt-ant2">FROM PARK CITY, UTAH</h2>
-            </div>
-        </div>
-    </section>
-        <br><br>
-
+    </div>
+</section>
+-->
+<div class="row" style="margin-top: 2em">
+    <div class="col-12">
+        <h1 class="fnt-ant1">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+    </div>
+</div>
+<div class="row" style="margin-top: 3em">
+    <div class="col-12">
+        <h2 class="fnt-ant2">FROM PARK CITY, UTAH</h2>
+    </div>
+</div>
 <!--4 col, branches-->
-    <section class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-6 col-sm-3">
-                <div class="circle c-red"><p class="circle-text">DESIGN</p></div>
-            </div>
-            <div class="col-6 col-sm-3">
-                <div class="circle c-orange"><p class="circle-text">DEVELOP</p></div>
-            </div>
-            <div class="col-6 col-sm-3">
-                <div class="circle c-green"><p class="circle-text">SUPPORT</p></div>
-            </div>
-                <div class="circle c-blue"><p class="circle-text">HOST</p></div>
+<section class="container">
+    <div class="row">
+        <div class="col-6 col-sm-3">
+            <div class="circle c-red"><p class="circle-text fnt-ant4">DESIGN</p></div>
         </div>
-        <div class="row">
-            <div class="d-none d-sm-block col-sm-12">
-                <hr>
-            </div>
+        <div class="col-6 col-sm-3">
+            <div class="circle c-orange"><p class="circle-text">DEVELOP</p></div>
         </div>
-
-    </section>
-
-
+        <div class="col-6 col-sm-3">
+            <div class="circle c-green"><p class="circle-text">SUPPORT</p></div>
+        </div>
+        <div class="col-6 col-sm-3">
+            <div class="circle c-blue"><p class="circle-text">HOST</p></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="d-none d-sm-block col-sm-12">
+            <hr>
+        </div>
+    </div>
+</section>
 <!--Main images-->
-    <section class="container-fluid">
-        <div class="row" style="margin-top: 5em">
-            <div class="col-12">
-                <h2 class="fnt-abl2">SELECTED WORK</h2>
-            </div>
+<section class="container-fluid" style="margin-top: 5em">
+    <div class="row">
+        <div class="col-12 d-sm-none">
+            <h2 class="fnt-abl2">SELECTED WORK</h2>
         </div>
-        <div class="d-flex justify-content-center" style="margin-top: 5em">
-            <img src="apple-ipad.jpg" class="pic-border" alt="apple-ipad">
+        <div class="col-md-8 d-none d-md-block">
+            <h2 class="fnt-abl2" style="text-align: left">SELECTED WORK</h2>
         </div>
-        <div class="row" style="margin-top: 1em">
-            <div class="col-6">
-                <h2 class="pic-title fnt-abl2">FEATURED PROJECT</h2>
-            </div>
-            <div class="col-1">
-                <div class="circle-sm c-red"><div class="circle-text-sm">D</div></div>
-            </div>
-            <div class="col-1">
-                <div class="circle-sm c-orange"><div class="circle-text-sm">D</div></div>
-            </div>
-            <div class="col-1">
-                <div class="circle-sm c-green"><div class="circle-text-sm">S</div></div>
-            </div>
-            <div class="col-1">
-                <div class="circle-sm c-blue"><div class="circle-text-sm">H</div></div>
-            </div>
+        <div class="col-md-4 d-none d-md-block">
+            <h2 class="fnt-abl2" style="text-align: left">THE LAST</h2>
         </div>
-        <section class="col d-none d-sm-block col-sm-12">
-            <div class="d-flex justify-content-center" style="margin-top: 5em">
-                <img src="macbook.jpg" class="pic-border" alt="apple-ipad">
+    </div>
+    <div class="row">
+        <section class="col-12 col-sm-4">
+            <div class="d-flex justify-content-center">
+                <img src="apple-ipadResized.jpg" class="pic-border" alt="apple-ipad">
             </div>
             <div class="row" style="margin-top: 1em">
-                <div class="col-6">
-                    <h2 class="pic-title fnt-abl2">FEATURED PROJECT</h2>
+                <div class="col-6 col-sm-7">
+                    <p class="pic-title fnt-abl2 ml-auto" style="padding-left: 1em;">FEATURED PROJECT</p>
                 </div>
                 <div class="col-1">
-                    <div class="circle-sm c-red"><div class="circle-text-sm">D</div></div>
+                    <div class="circle-sm c-red ml-1"><div class="circle-text-sm">D</div></div>
                 </div>
                 <div class="col-1">
-                    <div class="circle-sm c-orange"><div class="circle-text-sm">D</div></div>
+                    <div class="circle-sm c-orange ml-1"><div class="circle-text-sm">D</div></div>
                 </div>
                 <div class="col-1">
-                    <div class="circle-sm c-green"><div class="circle-text-sm">S</div></div>
+                    <div class="circle-sm c-green ml-1"><div class="circle-text-sm">S</div></div>
                 </div>
                 <div class="col-1">
-                    <div class="circle-sm c-blue"><div class="circle-text-sm">H</div></div>
+                    <div class="circle-sm c-blue ml-1"><div class="circle-text-sm">H</div></div>
                 </div>
             </div>
-    <!--Macbook Pic-->
+            <div class="row">
+                <div class="col-12" style="margin: 1em;"></div>
+            </div>
+            <!--Man Pic-->
             <section class="col d-none d-sm-block col-sm-12">
-                <div class="d-flex justify-content-center" style="margin-top: 5em">
+                <div class="d-flex justify-content-center">
+                    <img src="manResized.jpg" class="pic-border" alt="apple-ipad">
+                </div>
+                <div class="row" style="margin-top: 1em">
+                    <div class="col-sm-7 d-sm-block d-none">
+                        <p class="pic-title fnt-abl2 ml-auto">FEATURED PROJECT</p>
+                    </div>
+                    <div class="col-1">
+                        <div class="circle-sm c-red ml-1"><div class="circle-text-sm">D</div></div>
+                    </div>
+                    <div class="col-1">
+                        <div class="circle-sm c-orange ml-1"><div class="circle-text-sm">D</div></div>
+                    </div>
+                    <div class="col-1">
+                        <div class="circle-sm c-green ml-1"><div class="circle-text-sm">S</div></div>
+                    </div>
+                    <div class="col-1">
+                        <div class="circle-sm c-blue ml-1"><div class="circle-text-sm">H</div></div>
+                    </div>
+                    <!--                        <div class="col-sm-7 d-sm-block d-none">-->
+                    <!--                            <p class="pic-title fnt-abl2">FEATURED PROJECT</p>-->
+                    <!--                        </div>-->
+                    <!--                        <div class="col-sm-5 d-sm-block d-none">-->
+                    <!--                            <div class="col-1">-->
+                    <!--                                <div class="circle-sm c-red"><div class="circle-text-sm">D</div></div>-->
+                    <!--                            </div>-->
+                    <!--                            <div class="col-1">-->
+                    <!--                                <div class="circle-sm c-orange"><div class="circle-text-sm">D</div></div>-->
+                    <!--                            </div>-->
+                    <!--                            <div class="col-1">-->
+                    <!--                                <div class="circle-sm c-green"><div class="circle-text-sm">S</div></div>-->
+                    <!--                            </div>-->
+                    <!--                            <div class="col-1">-->
+                    <!--                                <div class="circle-sm c-blue"><div class="circle-text-sm">H</div></div>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                </div>
+            </section>
+        </section>
+        <div class="col-6 col-sm-4">
+            <!--Macbook Pic-->
+            <section class="col d-none d-sm-block col-sm-12">
+                <div class="d-flex justify-content-center">
                     <img src="macbookResized.jpg" class="pic-border" alt="apple-ipad">
                 </div>
                 <div class="row" style="margin-top: 1em">
-                    <div class="col-6">
-                        <h2 class="pic-title fnt-abl2">FEATURED PROJECT</h2>
+                    <div class="col-sm-7 d-sm-block d-none" style="padding-right: 0!important;">
+                        <p class="pic-title fnt-abl2">FEATURED PROJECT</p>
                     </div>
                     <div class="col-1">
-                        <div class="circle-sm c-red"><div class="circle-text-sm">D</div></div>
+                        <div class="circle-sm c-red" style="padding-right: 0!important;"><div class="circle-text-sm">D</div></div>
                     </div>
                     <div class="col-1">
-                        <div class="circle-sm c-orange"><div class="circle-text-sm">D</div></div>
+                        <div class="circle-sm c-orange" style="padding-right: 0!important;"><div class="circle-text-sm">D</div></div>
                     </div>
                     <div class="col-1">
-                        <div class="circle-sm c-green"><div class="circle-text-sm">S</div></div>
+                        <div class="circle-sm c-green" style="padding-right: 0!important;"><div class="circle-text-sm">S</div></div>
                     </div>
                     <div class="col-1">
-                        <div class="circle-sm c-blue"><div class="circle-text-sm">H</div></div>
+                        <div class="circle-sm c-blue" style="padding-right: 0!important;"><div class="circle-text-sm">H</div></div>
                     </div>
                 </div>
-    <!--Man Pic-->
-            <section class="col d-none d-sm-block col-sm-12">
-                <div class="d-flex justify-content-center" style="margin-top: 5em">
-                        <img src="manResized.jpg" class="pic-border" alt="apple-ipad">
-                    </div>
-                    <div class="row" style="margin-top: 1em">
-                        <div class="col-6">
-                            <h2 class="pic-title">FEATURED PROJECT</h2>
-                        </div>
-                        <div class="col-1">
-                            <div class="circle-sm c-red"><div class="circle-text-sm">D</div></div>
-                        </div>
-                        <div class="col-1">
-                            <div class="circle-sm c-orange"><div class="circle-text-sm">D</div></div>
-                        </div>
-                        <div class="col-1">
-                            <div class="circle-sm c-green"><div class="circle-text-sm">S</div></div>
-                        </div>
-                        <div class="col-1">
-                            <div class="circle-sm c-blue"><div class="circle-text-sm">H</div></div>
-                        </div>
-                    </div>
             </section>
-    <!--Security Pic-->
-            <section class="col d-none d-sm-block col-sm-12">
-                <div class="d-flex justify-content-center" style="margin-top: 5em">
-                    <img src="securityResized.jpg" class="pic-border" alt="security">
-<!--    Small side bar images-->
-    <section class="col d-none d-sm-block col-sm-12">
-
-<!--        <div class="row" style="margin-top: 1em">-->
-<!--            <div class="col-3">-->
-<!--                <img src="mobile-phone.jpg" alt="mobile">-->
-<!--                <h3>THE ADMIN BAR AND ABSOLUTE POSITIONING</h3>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--                <div class="col-3">-->
-<!--                    <img src="head.jpg" alt="head">-->
-<!--                    <h3>NIBBLER AWESOME WEBSITE TESTING</h3>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--                <div class="col-3">-->
-<!--                    <img src="ipad.jpg" alt="ipad">-->
-<!--                    <h3>HOW TO GET GOOGLE TO LIKE YOU</h3>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--                <div class="col-3">-->
-<!--                     <h3><i class="fas fa-dove"></i> LAST TWEET</h3>-->
-<!--                     <p>lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh buismod scram ipsum dolor-->
-<!--                        sit amet, consectetuer adipiscing.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-        <div class="col-4 col-6 col-sm-4">
             <div class="row">
-                <div class="col-2 col-6 col-sm-4">
+                <div class="col-12" style="margin: 1em;"></div>
+            </div>
+            <!--Security Pic-->
+            <section class="col d-none d-sm-block col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <img src="securityResized.jpg" class="pic-border" alt="security">
+                </div>
+                <div class="row" style="margin-top: 1em">
+                    <div class="col-sm-7 d-sm-block d-none" style="padding-right: 0!important;">
+                        <p class="pic-title fnt-abl2">FEATURED PROJECT</p>
+                    </div>
+                    <div class="col-1">
+                        <div class="circle-sm c-red" style="padding-right: 0!important;"><div class="circle-text-sm">D</div></div>
+                    </div>
+                    <div class="col-1">
+                        <div class="circle-sm c-orange" style="padding-right: 0!important;"><div class="circle-text-sm">D</div></div>
+                    </div>
+                    <div class="col-1">
+                        <div class="circle-sm c-green" style="padding-right: 0!important;"><div class="circle-text-sm">S</div></div>
+                    </div>
+                    <div class="col-1">
+                        <div class="circle-sm c-blue" style="padding-right: 0!important;"><div class="circle-text-sm">H</div></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="d-none d-sm-block col-sm-4" style="margin-top: 1em">
+            <div class="row">
+                <div class="col-sm-3">
                     <img src="mobile-phoneResized.jpg" alt="A logo">
                 </div>
-                <div class="col col-6 col-sm-4">
-                    <p>THE ADMIN BAR AND ABSOLUTE POSITIONING</p>
+                <div class="col-sm-9">
+                    <p class="fnt-ant3">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>
                 </div>
             </div>
             <br>
             <div class="row">
-                <div class="col-2 col-6 col-sm-4">
+                <div class="col-sm-3">
                     <img src="headResized.jpg" alt="A logo">
                 </div>
-                <div class="col col-6 col-sm-4">
-                    <p>NIBBLER AWESOME WEBSITE TESTING</p>
+                <div class="col-sm-9">
+                    <p class="fnt-ant3">NIBBLER AWESOME WEBSITE TESTING</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="ipadResized.jpg" alt="A logo">
+                </div>
+                <div class="col-sm-9">
+                    <p class="fnt-ant3">HOW TO GET GOOGLE TO LIKE YOU</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-2 col-6 col-sm-4">
-                    <img src="ipadResized.jpg" alt="A logo">
-                </div>
-                <div class="col col-6 col-sm-4">
-                    <p>HOW TO GET GOOGLE TO LIKE YOU</p>
-
-                </div>
+                <div class="col-12" style="margin: 2em;"></div>
+            </div>
+            <div class="row"></div>
+            <div class="col-sm-12">
+                <h3 class="fnt-abl2"><i class="fas fa-dove"></i> LAST TWEET</h3>
+                <p class="fnt-abl3">lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh buismod scram ipsum dolor
+                    sit amet, consectetuer adipiscing.</p>
             </div>
         </div>
-    </section>
-
+    </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 </body>
 </html>
-
