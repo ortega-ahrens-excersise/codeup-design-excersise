@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="274be233-e99d-44aa-a2b7-6d42c6b829f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/img/google-search.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/head.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/headResized.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/ipad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/ipadResized.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/macbook.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/macbookResized.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/man.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/manResized.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/mobile-phone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/mobile-phoneResized.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/security.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/img/securityResized.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple-ipad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/img/apple-ipad.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple-ipadResized.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/img/apple-ipadResized.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeup-design.css" beforeDir="false" afterPath="$PROJECT_DIR$/codeup-design.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeup-design.html" beforeDir="false" afterPath="$PROJECT_DIR$/codeup-design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-test-ma.html" beforeDir="false" afterPath="$PROJECT_DIR$/design-test-ma.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codeup-design.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="244" column="7" selection-start-line="244" selection-start-column="7" selection-end-line="244" selection-end-column="7" />
+            <state relative-caret-position="137">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -120,8 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +122,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,16 +191,20 @@
       <workItem from="1560243145345" duration="1197000" />
       <workItem from="1560244673085" duration="8285000" />
       <workItem from="1560266510485" duration="111000" />
+      <workItem from="1560266971360" duration="297000" />
+      <workItem from="1560273137546" duration="223000" />
+      <workItem from="1561034640900" duration="111000" />
+      <workItem from="1561034853492" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52592000" />
+    <option name="totallyTimeSpent" value="53230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17043619" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18012924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,8 +279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codeup-design.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="244" column="7" selection-start-line="244" selection-start-column="7" selection-end-line="244" selection-end-column="7" />
+        <state relative-caret-position="137">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
