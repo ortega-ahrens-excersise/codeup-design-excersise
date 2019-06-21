@@ -39,6 +39,10 @@ h1, h2 {
 .container {
     max-width: 991px!important;
 }
+.white-container {
+    width: 1500px;
+    padding: 0;
+}
 .c-red {
     background: #e6563b;
 }
@@ -75,6 +79,10 @@ h1, h2 {
     padding-right: 0;
     padding-left: 0;
 }
+.small-pic-border {
+    border: #E6E6E6 solid 2px;
+    border-radius: 2px;
+}
 .top-nav {
     text-align: center;
     color: black;
@@ -85,11 +93,15 @@ h1, h2 {
 }
 .fnt-abl2 {
     font-family: 'Abel', sans-serif;
-    font-size: 19px;
+    font-size: 16px;
 }
 .fnt-abl3 {
     font-family: 'Abel', sans-serif;
     font-size: 12px;
+}
+.fnt-abl4 {
+    font-family: 'Abel', sans-serif;
+    font-size: 36px;
 }
 .fnt-ant1 {
     font-family: 'Anton', sans-serif;
@@ -103,7 +115,7 @@ h1, h2 {
     font-family: 'Anton', sans-serif;
     font-size: 20px;
 }
-body {
+main {
     max-width: 768px;
     margin: auto;
 }
@@ -116,4 +128,5 @@ body {
     margin-left: 0;
     padding-right: 0;
     padding-left: 0;
+    z-index: 2;
 }
